@@ -1,0 +1,156 @@
+# Robot name goes here
+krab: # change the name
+  # default controller
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Controller 1
+  controller_ltclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: ltclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0} 
+
+  # Controller 2
+  controller_lcclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: lcclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 3
+  controller_lbclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: lbclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 4
+  controller_rtclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rtclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 5
+  controller_rcclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rcclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 6
+  controller_rbclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rbclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 7
+  controller_ltlj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: ltlj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 8
+  controller_lclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: lclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 9
+  controller_lblj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: lblj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 10
+  controller_rtlj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rtlj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 11
+  controller_rclj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rclj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 12
+  controller_rblj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: rblj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 13
+  controller_mbj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: mbj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 2000 , i: 1 , d: 0}
+
+  # Controller 14
+  controller_m1j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: m1j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 2000 , i: 1 , d: 0}
+
+  # Controller 15
+  controller_m2j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: m2j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 2000 , i: 1 , d: 0}
+
+  # Controller 16
+  controller_e1j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: e1j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 17
+  controller_e2j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: e2j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 18
+  controller_e3j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: e3j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 19
+  controller_g1j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: g1j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 20
+  controller_g2j: # change the name
+    type: effort_controllers/JointPositionController
+    joint: g2j
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # Controller 21
+  controller_taryj: # change the name
+    type: effort_controllers/JointPositionController
+    joint: taryj
+    # pid : {p: 1400.0 , i: 0.01 , d: 30.0}
+    pid : {p: 1000 , i: 1 , d: 0}
+
+  # ....
+  # Controller n

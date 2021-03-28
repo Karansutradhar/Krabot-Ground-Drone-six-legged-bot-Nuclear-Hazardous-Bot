@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Name your robot here -->
+<robot name ="krab" xmlns:xacro="http://wiki.ros.org/xacro">
+
+<!-- Include your urdf files here -->
+	<!-- Include Robot's urdf filepath -->
+	<!-- Include Lidar's urdf filepath -->
+	<xacro:include filename="$(find krab)/urdf/krab.urdf" />
+
+<!-- Add your gazebo sensors here -->
+
+<!--  Gazebo plugin for control here is already added for you -->
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+			<robotNamespace>/krab</robotNamespace>
+		</plugin>
+	</gazebo>
+
+
+<!-- Create a joint between your robot and sensor -->
+
+</robot>	
+
+
